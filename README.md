@@ -5,7 +5,6 @@ Um app Flutter para treinar leitura e escrita em json server.
 Observações importantes para execução do app:
 
 1. Para executar o aplicativo, o usuário deve estabeleçer conexão com o json server, executando o seguinte comando no terminal: json-server --watch livros.json (note que você deve estar no caminho do arquivo [livros.json](json_server/livros.json)).
-
 2. Caso deseje executar o app pelo emulador Android (emulador AVD), mude a URL base no arquivo consts (em [URL_BASE](lib/app/utils/consts.dart)) para URL_BASE = 'http://10.0.2.2:3000/livros'; Caso deseje executar em um smartphone, utilize 'http://ip.do.seu.dispositivo:3000/livros';
 
 ## Features
