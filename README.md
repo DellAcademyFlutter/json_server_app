@@ -1,16 +1,29 @@
 # json_server_app
+Um app Flutter para treinar leitura e escrita em json server.
 
-Uma aplicacao Flutter para treino com json server.
+## Get Started
+Observações importantes para execução do app:
 
-## Getting Started
+1. Para executar o aplicativo, o usuário deve estabeleçer conexão com o json server, executando o seguinte comando no terminal: json-server --watch livros.json (note que você deve estar no caminho do arquivo livros.json: * [livros.json](json_server/livros.json)).
 
-This project is a starting point for a Flutter application.
+2. Caso deseje executar o app pelo emulador Android (emulador AVD), mude a URL base no arquivo consts (em * [URL_BASE](lib/app/utils/consts.dart)) para URL_BASE = 'http://10.0.2.2:3000/livros'; Caso deseje executar em um smartphone, utilize 'http://192.168.0.104:3000/livros';
 
-A few resources to get you started if this is your first Flutter project:
+## Features
+Este aplicativo implementa um CRUD (_Create (Criação), Read (Consulta), Update (Atualização) e Delete (Destruição)_) de livros utilizando um arquivo .json como servidor.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+1. Na tela principal, o usuário poderá:
+  1. Visualizar os livros cadastrados.
+  2. Pesquisar livros por titulo, autor ou ISBN.
+  3. Arrastar um livro para editá-lo ou removê-lo.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2. Na tela de cadastro de livros, o usuário poderá cadastrar um livro.
+
+## Screenshots
+Home Page                  |  Cadastro Livro
+:-------------------------:|:-------------------------:
+![](<img src="screenshots_readme/MyAnoteds_1_cadastro.png" width="300"> <img src="screenshots_readme/json_server_home_page" width="300">)|![](<img src="screenshots_readme/MyAnoteds_1_cadastro.png" width="300"> <img src="screenshots_readme/json_server_cadastro_livro" width="300">)|
+
+## Equipe desenvolvedora
+1. Elias Cícero Moreira Guedes (Mentorado).
+2. Antônio Honorato Moreira Guedes (Mentorado).
+3. Israel Barbosa (Mentor).
