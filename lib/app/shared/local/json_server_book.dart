@@ -5,7 +5,6 @@ import 'package:json_server_app/app/utils/consts.dart';
 
 // Watch command: json-server --watch livros.json
 // json-server --watch --host 0.0.0.0  livros.json
-// json-server --watch --host 192.168.0.104 livros.json
 
 /// Metodo GET
 Future<Book> getBook({id}) async {
