@@ -21,7 +21,7 @@ Este aplicativo implementa um CRUD (_Create_ (Criação), _Read_ (Consulta), _Up
 ## Screenshots
 Home Page                  |  Cadastro Livro
 :-------------------------:|:-------------------------:
-(<img src="screenshota_readme/json_server_home_page.png" width="300">)|(<img src="screenshots_readme/json_server_cadastro_livro.png" width="300">)|
+(<img src="screenshots_readme/json_server_home_page.png" width="300">)|(<img src="screenshots_readme/json_server_cadastro_livro.png" width="300">)|
 
 ## Equipe desenvolvedora
 1. Elias Cícero Moreira Guedes (Mentorado).
