@@ -10,7 +10,7 @@ import 'modules/home/home_page.dart';
 
 class AppModule extends MainModule {
   @override
-  // Lista de injecoes de independencia do projeto
+  // Lista de injecoes de dependencia do projeto
   List<Bind> get binds => [
     Bind((i) => AppController()),
   ];
